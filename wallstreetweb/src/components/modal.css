@@ -1,0 +1,43 @@
+.modal-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    border-radius: 40px;
+}
+
+.modal-wrapper .title {
+    font-family: "Gyeonggi-Title";
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.modal-wrapper .info {
+    color: black;
+    font-family: "Gyeonggi-Title";
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.modal-wrapper .content {
+    color: black;
+    font-family: "Gyeonggi-Batang";
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.modal-wrapper .content img {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background: none;
+    border: none;
+}
